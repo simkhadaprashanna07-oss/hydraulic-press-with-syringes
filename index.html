@@ -1,0 +1,144 @@
+hydraulic-press-website/
+│
+├── index.html
+├── facts.html
+├── principle.html
+├── experiment.html
+├── images.html
+├── history.html
+├── stories.html
+├── contact.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+└── images/
+    └── press.jpg
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hydraulic Press</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>Hydraulic Press</h1>
+  <p>Science, Facts, Experiments & Stories</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="facts.html">Facts</a>
+  <a href="principle.html">Principle</a>
+  <a href="experiment.html">Experiment</a>
+  <a href="images.html">Images</a>
+  <a href="stories.html">Stories</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<section>
+  <h2>What is a Hydraulic Press?</h2>
+  <p>A hydraulic press is a machine that uses liquid pressure to multiply force. It works on Pascal’s law and is widely used in industries, vehicles, and machines.</p>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hydraulic Press Facts</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Scientific Facts</h1>
+<ul>
+  <li>Works on Pascal’s Law</li>
+  <li>Uses incompressible fluids</li>
+  <li>Multiplies force</li>
+  <li>Used in car lifts and factories</li>
+</ul>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hydraulic Press Experiment</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Syringe Hydraulic Press Experiment</h1>
+<p>Connect two syringes of different sizes with a tube filled with water. Press the smaller syringe to see force multiplication.</p>
+
+<button onclick="showResult()">Click for Result</button>
+<p id="result"></p>
+
+<script src="js/script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hydraulic Press Images</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Image Gallery</h1>
+<img src="images/press.jpg" width="300">
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stories & Superstitions</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Stories & Superstitions</h1>
+<p>Some people believe machines like hydraulic presses have immense power that should be respected, and old myths associate crushing power with divine strength.</p>
+
+</body>
+</html>
+body {
+  font-family: Arial;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: darkblue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+function showResult() {
+  document.getElementById("result").innerHTML =
+    "Result: A small force produces a large force using Pascal’s Law!";
+}
