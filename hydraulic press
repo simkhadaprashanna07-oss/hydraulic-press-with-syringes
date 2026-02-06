@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydraulic Press Hub - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hydraulic Press Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="facts.html">Facts</a></li>
+                <li><a href="experiments.html">Experiments</a></li>
+                <li><a href="images.html">Images</a></li>
+                <li><a href="uses.html">Uses</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome to Hydraulic Press Hub</h2>
+            <p>A hydraulic press is a powerful machine that uses hydraulic cylinders to generate compressive force, based on Pascal's principle. Invented in 1795 by Joseph Bramah, it's essential in industries for forming, molding, and more. Explore facts, experiments, images, and uses on this site.</p>
+            <img src="https://www.magnumpress.com/wp-content/uploads/2023/10/MCF15A.png" alt="Hydraulic Press Machine" class="hero-image">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Hydraulic Press Hub. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
